@@ -3,21 +3,21 @@
 $payload = [
     'recipients' => [
         [
-            'phone_number' => '+33600000000',
+            'phone_number' => '+201022769785',
             'param1' => 'John'
         ],
     ],
-    'text' => 'Hello {param1}. STOP au XXXXX',
+    'text' => 'Hello {param1}. STOP au XXXXX @THE_PHARAOHSS',
     'type' => 'sms_premium',
     'purpose' => 'wholesale',
-    'sender' => 'SMS',
+    'sender' => 'THE PHARAOH',
     'send_at' => '2020-10-03T07:42:39-07:00',
     'with_replies' => false,
 ];
 
 /*
 {
-    "recipients":[{"phone_number":"+33600000000","param1":"John"}],
+    "recipients":[{"phone_number":"+201022769785","param1":"John"}],
     "text":"Hello {param1}. STOP au XXXXX",
     "type":"sms_premium",
     "purpose":"wholesale",
@@ -43,8 +43,8 @@ curl_setopt_array(
         CURLOPT_POSTFIELDS => $jsonEncodedPayload,
         CURLOPT_HTTPHEADER => [
             'Content-Type: application/json',
-            'api-key: ***API-KEY***',
-            'api-login:  *****@mail.com',
+            'api-key: 0ImhFxnpGELVboQWBrzavf7T9yqwOeU4',
+            'api-login:  xa7medbodax@gmail.com',
             'cache-control: no-cache'
         ],
     ]
